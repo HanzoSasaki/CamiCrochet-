@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="js-enabled">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CamiCrochet - Tecendo Sentimentos em Cada Ponto</title>
+    <meta name="description"
+        content="Artesanato em crochê feito com amor por Camila Pederiva. Peças únicas e personalizadas desde 2015.">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-icon">🧶</div>
+    </div>
+
+    <!-- Cabeçalho -->
+    <header class="header" role="banner">
+        <nav class="nav-container" aria-label="Navegação principal">
+            <a href="#home" class="logo" aria-label="Página inicial">
+                🧶CamiCrochet
+            </a>
+
+            <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#trabalhos" class="nav-link">Galeria</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <!-- Seção Hero -->
+        <section id="home" class="hero" role="region" aria-labelledby="heroHeading">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 id="heroHeading" class="hero-title">
+                        <span class="title-decor">✽</span>
+                        Tecendo Sentimentos
+                        <span class="title-decor">✽</span>
+                    </h1>
+                    <p class="hero-subtitle">Com fios de amor desde 2015</p>
+
+                    <div class="hero-cta">
+                        <a href="#trabalhos" class="btn btn-primary">
+                            <span>Ver Trabalhos</span>
+                            <i class="fas fa-arrow-down" aria-hidden="true"></i>
+                        </a>
+                        <a href="#contato" class="btn btn-secondary">
+                            <span>Encomendar</span>
+                            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="hero-frame">
+                        <img src="img/image copy.png" alt="Artesanato em crochê colorido" class="hero-image"
+                            loading="eager" width="600" height="400">
+                    </div>
+                </div>
+            </div>
+
+            <div class="scroll-indicator">
+                <i class="fas fa-angle-double-down" aria-hidden="true"></i>
+            </div>
+        </section>
+
+        <!-- Seção Sobre -->
+        <section id="sobre" class="sobre" role="region" aria-labelledby="sobreHeading">
+            <div class="section-container">
+                <h2 id="sobreHeading" class="section-title">Sobre Nós</h2>
+
+                <div class="sobre-content">
+                    <div class="sobre-image-container">
+                        <img src="img/image.png" alt="Camila trabalhando no crochê" class="sobre-image"
+                            loading="lazy" width="400" height="600">
+                    </div>
+
+                    <div class="sobre-texto">
+                        <p class="destaque">Olá! Sou Camila , artesã apaixonada por transformar fios em emoções.
+                        </p>
+
+                        <div class="destaque-box">
+                            <ul class="sobre-lista">
+                                <li>
+                                    <i class="fas fa-heart" aria-hidden="true"></i>
+                                    <span>texto</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-palette" aria-hidden="true"></i>
+                                    <span>Peças 100% personalizadas</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-award" aria-hidden="true"></i>
+                                    <span>Materiais de alta qualidade</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="especialidades">
+                            <h3>Principais Criações:</h3>
+                            <ul class="especialidades-lista">
+                                <li>Amigurumis personalizados</li>
+                                <li>Lembrancinhas para eventos</li>
+                                <li>Decoração sustentável</li>
+                                <li>Acessórios únicos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Trabalhos -->
+        <section id="trabalhos" class="trabalhos" role="region" aria-labelledby="trabalhosHeading">
+            <div class="section-container">
+                <h2 id="trabalhosHeading" class="section-title">Nossas Criações</h2>
+
+                <div class="galeria-grid">
+                    <!-- Item 1 -->
+                    <article class="galeria-item fade-in">
+                        <figure>
+                            <img src="img/image copy.png" alt="Ursinho de crochê personalizado" class="galeria-image"
+                                loading="lazy" width="400" height="300">
+                            <figcaption class="galeria-caption">
+                                <h3>Amigurumi Personalizado</h3>
+                                <p>Perfeito para presentes especiais</p>
+                            </figcaption>
+                        </figure>
+                    </article>
+
+                    <!-- Repetir outros itens seguindo o mesmo padrão -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Contato -->
+        <section id="contato" class="contato" role="region" aria-labelledby="contatoHeading">
+            <div class="section-container">
+                <h2 id="contatoHeading" class="section-title">Faça Sua Encomenda</h2>
+
+                <div class="contato-content">
+                    <div class="contato-info">
+                        <div class="info-box">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h3>Telefone</h3>
+                                <p>(11) 99999-9999</p>
+                            </div>
+                        </div>
+
+                        <div class="info-box">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>contato@camicrochet.com</p>
+                            </div>
+                        </div>
+
+                        <div class="info-box">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Localização</h3>
+                                <p>São Paulo - SP</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contato-form">
+                        <div class="input-group">
+                            <input type="text" id="nome" name="nome" required placeholder="Seu nome completo">
+                        </div>
+
+                        <div class="input-group">
+                            <input type="email" id="email" name="email" required placeholder="Seu melhor email">
+                        </div>
+
+                        <div class="input-group">
+                            <textarea id="mensagem" name="mensagem" rows="5" required
+                                placeholder="Descreva sua encomenda..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">
+                            <span>Enviar Encomenda</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer" role="contentinfo">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>CamiCrochet</h4>
+                <p>Tecendo emoções desde 2015</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" aria-label="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" aria-label="Pinterest">
+                        <i class="fab fa-pinterest"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Links Úteis</h4>
+                <ul>
+                    <li><a href="#home">Página Inicial</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#trabalhos">Galeria</a></li> <!-- Alterado de "Trabalhos" para "Galeria" -->
+                    <li><a href="#contato">Encomendas</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Políticas</h4>
+                <ul>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Trocas e Devoluções</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2024 CamiCrochet - Todos os direitos reservados</p>
+            <p>Criado com ❤️ por Camila Pederiva</p>
+        </div>
+    </footer>
+
+    <!-- Botão Flutuante WhatsApp -->
+    <a href="https://wa.me/5511999999999" class="whatsapp-btn" target="_blank" rel="noopener"
+        aria-label="Fale conosco via WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script>
+        // Menu Mobile
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            navToggle.setAttribute('aria-expanded',
+                navToggle.getAttribute('aria-expanded') === 'false' ? 'true' : 'false');
+        });
+
+        // Scroll Suave
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            });
+        });
+
+        // Animação ao Scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.fade-in').forEach((el) => {
+            observer.observe(el);
+        });
+
+        // Loader
+        window.addEventListener('load', () => {
+            document.querySelector('.loader').style.display = 'none';
+        });
+    </script>
+</body>
+
+</html>
